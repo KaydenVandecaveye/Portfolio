@@ -10,19 +10,6 @@
     line-height: 1.6;
 }
 
-#contact {
-    text-align: center;
-    margin: 40px auto 25px;
-    background-color: black;
-    padding: 15px;
-}
-
-#contact h2,
-#contact p {
-    background-color: black;
-    margin-bottom: 10px;
-}
-
 #title {
     font-size: 32px;
     text-align: center;
@@ -39,16 +26,6 @@
     background-color: white;
     border-radius: 5px;
     width: 100%;
-}
-
-#contact button {
-    margin-top: 10px;
-    border: 2px solid white;
-    border-radius: 7.5px;
-    padding: 8px 16px;
-    background: transparent;
-    color: white;
-    cursor: pointer;
 }
 
 h4 {
@@ -248,6 +225,61 @@ a:hover {
 #experiences h1 {
     font-size: 1.5rem;
     text-decoration: underline;
+}
+
+/*Coursework Styling*/
+.coursework-title {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%; 
+    padding: 1%;
+    margin-top: 20px;
+}
+
+#coursework a {
+    display: block;
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+#coursework a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.coursework-title h1 {
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+.coursework-title p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.coursework-content {
+    border: 5px solid plum;
+    border-radius: 10px;
+    padding: 2.5%;
+    margin: 2.5% auto;
+    text-align: left;
+    width: 50%;
+}
+
+.coursework-content h3 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.coursework-content li {
+    font-size: 1.25rem;
+}
+
+.wrapped-content {
+    text-align: center;
+    display: flex; 
 }
 
 /* Responsive Design */
