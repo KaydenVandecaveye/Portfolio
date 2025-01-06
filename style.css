@@ -1,0 +1,253 @@
+/* Universal Styling */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#contact {
+    text-align: center;
+    margin: 40px auto 25px;
+    background-color: black;
+    padding: 15px;
+}
+
+#contact h2,
+#contact p {
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#bottom {
+    background-color: black;
+}
+
+#bottom-hr {
+    margin: 50px auto;
+    height: 2.5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#contact button {
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 7.5px;
+    padding: 8px 16px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+h4 {
+    margin: 0;
+}
+
+#creation-details {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#bottom-links {
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+#bottom-links a {
+    color: gray;
+    background-color: black;
+}
+
+#bottom-links a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#top-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#top-links h4 {
+    color: gray;
+}
+
+#top-links a {
+    font-size: 25px;
+    color: gray;
+}
+
+#top-links a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    color: plum;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/* Project Styling */
+#projects {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.project-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    
+}
+
+.wrapped-img {
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 5px solid plum;
+    margin: 5%;
+}
+
+.wrapped-img a {
+    font-size: 20px;
+    color: gray;
+}
+
+.wrapped-img a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+#project-title {
+    font-size: 32px;
+    text-align: center;
+    margin: 25px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 5px solid plum;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.project-description {
+    flex: 1;
+    text-align: left;
+    max-width: 650px;
+    padding: 15px;
+}
+
+/* Index Styling */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 650px;
+    border: 5px solid plum;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.text-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    margin-bottom: 15px;
+}
+
+.portrait-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid plum;
+}
+
+#content-title {
+    font-size: 32px;
+    text-align: center;
+    margin: 25px;
+}
+
+/*Experience Styling*/
+.experiences-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 5px solid plum;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.workplace-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-description, .text-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #project-title, #content-title {
+        font-size: 28px;
+    }
+
+    .project-img, .portrait-img {
+        max-width: 300px;
+    }
+
+    .project-container, .about-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #bottom-hr {
+        margin-top: 50px;
+    }
+}
